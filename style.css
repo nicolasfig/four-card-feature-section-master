@@ -1,0 +1,128 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+button,
+input,
+select {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+iframe {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+/*fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/*Variables*/
+
+:root {
+  /*Primary*/
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  /*Neutral*/
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-grey: hsl(0, 0%, 98%);
+
+  /*fonts*/
+  --poppins: "Poppins", sans-serif;
+  --w-light: 200;
+  --w-normal: 400;
+  --w-bold: 600;
+  /*sizes*/
+  --normal: 1rem;
+  --large: 1.6rem;
+  --larger: 3rem;
+}
+/*Fonts*/
+
+body {
+  background-color: var(--very-light-grey);
+  font-family: var(--poppins);
+}
+header {
+  text-align: center;
+  margin: var(--larger);
+}
+
+header h2 {
+  color: var(--very-dark-blue);
+}
+header .title {
+  font-size: var(--large);
+  font-weight: var(--w-light);
+}
+
+header .subtitle {
+  font-size: var(--large);
+  font-weight: var(--w-bold);
+}
+
+header .info {
+  font-size: var(--normal);
+  font-weight: var(--normal);
+  color: var(--grayish-blue);
+}
+
+main div {
+  border: 1px solid red;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
