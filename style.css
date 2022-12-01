@@ -115,8 +115,25 @@ header .info {
   color: var(--grayish-blue);
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main div img {
+  position: static;
+  bottom: 0;
+  right: 0;
+}
+
 main div {
   border: 1px solid red;
+  padding: var(--normal);
+  margin: var(--normal);
+}
+
+.center-cards > div:nth-child(2n) {
+  margin-top: var(--larger);
 }
 
 .attribution {
