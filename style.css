@@ -132,6 +132,11 @@ main div {
   margin: var(--normal);
 }
 
+div .icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .center-cards > div:nth-child(2n) {
   margin-top: var(--larger);
 }
