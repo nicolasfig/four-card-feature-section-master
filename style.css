@@ -74,7 +74,7 @@ th {
   --very-dark-blue: hsl(234, 12%, 34%);
   --grayish-blue: hsl(229, 6%, 66%);
   --very-light-grey: hsl(0, 0%, 98%);
-  --gray: hsl(0, 1%, 32%);
+  --gray: hwb(0 32% 68% / 0.521);
 
   /*fonts*/
   --poppins: "Poppins", sans-serif;
@@ -133,7 +133,7 @@ main div {
 }
 
 .card {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 19px 18px 0px var(--gray);
 }
 div .icon {
   display: flex;
