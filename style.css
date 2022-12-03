@@ -104,14 +104,13 @@ header {
 
 header h2 {
   color: var(--very-dark-blue);
+  font-size: var(--large-1);
 }
 header .title {
-  font-size: var(--large);
   font-weight: var(--w-light);
 }
 
 header .subtitle {
-  font-size: var(--large);
   font-weight: var(--w-bold);
 }
 
@@ -149,9 +148,21 @@ main :nth-child(3) {
 .card-content {
   padding: var(--large);
 }
-div .icon {
+
+.card-content > h2 {
+  color: var(--very-dark-blue);
+  margin-bottom: 1.5rem;
+}
+
+.card-content > p {
+  color: var(--grayish-blue);
+  font-size: var(--normal);
+}
+
+.card-content .icon {
   display: flex;
   justify-content: flex-end;
+  margin-top: var(--large-2);
 }
 
 .line {
