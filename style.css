@@ -73,8 +73,8 @@ th {
   /*Neutral*/
   --very-dark-blue: hsl(234, 12%, 34%);
   --grayish-blue: hsl(229, 6%, 66%);
-  --very-light-grey: hsl(0, 0%, 98%);
-  --gray: hwb(0 32% 68% / 0.521);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --gray: hsla(0, 0%, 70%, 0.5);
 
   /*fonts*/
   --poppins: "Poppins", sans-serif;
@@ -91,7 +91,7 @@ th {
 /*Fonts*/
 
 body {
-  background-color: var(--very-light-grey);
+  background-color: var(--very-light-gray);
   font-family: var(--poppins);
 }
 header {
@@ -139,7 +139,7 @@ main div img {
   height: 250px;
   margin: 0 var(--large) var(--large) 0;
   padding-bottom: var(--large);
-  box-shadow: 0px 19px 18px 0px var(--gray);
+  box-shadow: 0px 10px 10px 0px var(--gray);
   border-radius: 5px;
 }
 .card-content {
