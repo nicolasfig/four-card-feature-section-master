@@ -83,8 +83,10 @@ th {
   --w-bold: 600;
   /*sizes*/
   --normal: 1rem;
-  --large: 1.6rem;
-  --larger: 3rem;
+  --large: 1.625rem;
+  --large-1: 2rem;
+  --large-2: 3rem;
+  --large-3: 4rem;
 }
 /*Fonts*/
 
@@ -93,8 +95,11 @@ body {
   font-family: var(--poppins);
 }
 header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
-  margin: var(--larger);
+  margin: var(--large-3);
 }
 
 header h2 {
@@ -111,6 +116,8 @@ header .subtitle {
 }
 
 header .info {
+  width: 500px;
+  padding-top: var(--large-1);
   font-size: var(--normal);
   font-weight: var(--normal);
   color: var(--grayish-blue);
@@ -130,22 +137,25 @@ main div img {
 .card {
   width: 350px;
   height: 250px;
-  margin: var(--large);
-  padding-bottom: 30px;
+  margin: 0 var(--large) var(--large) 0;
+  padding-bottom: var(--large);
   box-shadow: 0px 19px 18px 0px var(--gray);
+  border-radius: 5px;
+}
+.card-content {
+  padding: var(--large);
 }
 div .icon {
   display: flex;
   justify-content: flex-end;
 }
 
-.center-cards > div:nth-child(2n) {
-  margin-top: var(--larger);
-}
 .line {
   width: 100%;
   height: 5px;
+  border-radius: 5px 5px 0 0;
 }
+
 .cyan-line {
   background-color: var(--cyan);
 }
