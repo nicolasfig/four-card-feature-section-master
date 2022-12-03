@@ -74,7 +74,7 @@ th {
   --very-dark-blue: hsl(234, 12%, 34%);
   --grayish-blue: hsl(229, 6%, 66%);
   --very-light-gray: hsl(0, 0%, 98%);
-  --gray: hsla(0, 0%, 70%, 0.5);
+  --gray: hsla(0, 0%, 70%, 0.4);
 
   /*fonts*/
   --poppins: "Poppins", sans-serif;
@@ -132,6 +132,10 @@ main div img {
   position: static;
   bottom: 0;
   right: 0;
+}
+
+main :nth-child(3) {
+  margin-right: 0;
 }
 
 .card {
