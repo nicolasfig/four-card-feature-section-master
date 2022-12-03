@@ -108,6 +108,7 @@ header h2 {
 }
 header .title {
   font-weight: var(--w-light);
+  margin: 5.75rem 0 1.5rem 0;
 }
 
 header .subtitle {
@@ -116,7 +117,7 @@ header .subtitle {
 
 header .info {
   width: 500px;
-  padding-top: var(--large-1);
+  margin-top: 1.5rem;
   font-size: var(--normal);
   font-weight: var(--normal);
   color: var(--grayish-blue);
@@ -219,5 +220,5 @@ main :nth-child(3) {
   margin-bottom: var(--large);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--very-dark-blue);
 }
