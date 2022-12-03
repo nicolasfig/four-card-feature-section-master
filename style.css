@@ -127,13 +127,11 @@ main div img {
   right: 0;
 }
 
-main div {
-  margin: var(--normal);
-}
-
 .card {
   width: 350px;
   height: 250px;
+  margin: var(--large);
+  padding-bottom: 30px;
   box-shadow: 0px 19px 18px 0px var(--gray);
 }
 div .icon {
