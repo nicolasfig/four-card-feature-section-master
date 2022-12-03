@@ -188,15 +188,29 @@ main :nth-child(3) {
 
 /* Mobile view */
 @media (max-width: 1024px) {
+  header {
+    margin: 5.75rem 2.5rem 4.5rem 2.5rem;
+  }
+
+  header > h2 {
+    font-size: 1.5rem;
+  }
+
+  header .title {
+    margin-bottom: 1.25rem;
+  }
   header .info {
-    width: 350px;
+    width: 295px;
+    margin-top: 1.25rem;
+    padding: 0;
   }
 
   main {
     flex-direction: column;
   }
   .card {
-    margin: 0 0 var(--large) 0;
+    width: 311px;
+    margin: 0 0 1.5rem 0;
   }
 }
 .attribution {
