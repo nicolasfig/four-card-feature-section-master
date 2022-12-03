@@ -146,7 +146,7 @@ main :nth-child(3) {
   border-radius: 5px;
 }
 .card-content {
-  padding: var(--large);
+  padding: var(--large-1);
 }
 
 .card-content > h2 {
@@ -162,7 +162,7 @@ main :nth-child(3) {
 .card-content .icon {
   display: flex;
   justify-content: flex-end;
-  margin-top: var(--large-2);
+  margin-top: var(--large-1);
 }
 
 .line {
