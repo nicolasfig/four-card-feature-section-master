@@ -127,6 +127,7 @@ main {
   align-items: center;
   justify-content: center;
 }
+
 main div img {
   position: static;
   bottom: 0;
@@ -184,9 +185,24 @@ main :nth-child(3) {
 .blue-line {
   background-color: var(--blue);
 }
+
+/* Mobile view */
+@media (max-width: 1024px) {
+  header .info {
+    width: 350px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+  .card {
+    margin: 0 0 var(--large) 0;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-bottom: var(--large);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
